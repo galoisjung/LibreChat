@@ -184,5 +184,8 @@
       "admin/",
       "packages/"
     ]
+  },
+  "dependencies": {
+    "fix": "^0.0.6"
   }
 }
