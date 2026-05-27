@@ -16,21 +16,21 @@ export const defaultTheme: IThemeRGB = {
   'rgb-ring-primary': '37 99 235', // #2563EB (blue-600)
 
   // Header colors
-  'rgb-header-primary': '255 255 255', // #fff (white)
-  'rgb-header-hover': '247 247 248', // #f7f7f8 (gray-50)
-  'rgb-header-button-hover': '247 247 248', // #f7f7f8 (gray-50)
+  'rgb-header-primary': '248 250 255', // #f8faff (blue-tinted white)
+  'rgb-header-hover': '238 243 255', // #eef3ff (blue-50)
+  'rgb-header-button-hover': '238 243 255', // #eef3ff (blue-50)
 
   // Surface colors
-  'rgb-surface-active': '236 236 236', // #ececec (gray-100)
-  'rgb-surface-active-alt': '227 227 227', // #e3e3e3 (gray-200)
-  'rgb-surface-hover': '227 227 227', // #e3e3e3 (gray-200)
-  'rgb-surface-hover-alt': '205 205 205', // #cdcdcd (gray-300)
+  'rgb-surface-active': '228 237 255', // #e4edff (blue-100)
+  'rgb-surface-active-alt': '221 232 255', // #dde8ff
+  'rgb-surface-hover': '221 232 255', // #dde8ff
+  'rgb-surface-hover-alt': '207 218 255', // #cfdaff
   'rgb-surface-primary': '255 255 255', // #fff (white)
-  'rgb-surface-primary-alt': '247 247 248', // #f7f7f8 (gray-50)
+  'rgb-surface-primary-alt': '238 243 255', // #eef3ff (blue-50)
   'rgb-surface-primary-contrast': '236 236 236', // #ececec (gray-100)
-  'rgb-surface-secondary': '247 247 248', // #f7f7f8 (gray-50)
-  'rgb-surface-secondary-alt': '227 227 227', // #e3e3e3 (gray-200)
-  'rgb-surface-tertiary': '236 236 236', // #ececec (gray-100)
+  'rgb-surface-secondary': '238 243 255', // #eef3ff (blue-50)
+  'rgb-surface-secondary-alt': '221 232 255', // #dde8ff
+  'rgb-surface-tertiary': '228 237 255', // #e4edff (blue-100)
   'rgb-surface-tertiary-alt': '255 255 255', // #fff (white)
   'rgb-surface-dialog': '255 255 255', // #fff (white)
   'rgb-surface-submit': '29 78 216', // #1D4ED8 (blue-700)
@@ -55,18 +55,18 @@ export const defaultTheme: IThemeRGB = {
   // Utility colors (mapped to existing colors for backwards compatibility)
   'rgb-background': '255 255 255', // Same as surface-primary
   'rgb-foreground': '17 17 17', // Same as text-primary
-  'rgb-primary': '235 235 235', // Same as surface-active
+  'rgb-primary': '228 237 255', // Same as surface-active
   'rgb-primary-foreground': '0 0 0', // Same as surface-primary-contrast
-  'rgb-secondary': '247 247 248', // Same as surface-secondary
+  'rgb-secondary': '238 243 255', // Same as surface-secondary
   'rgb-secondary-foreground': '66 66 66', // Same as text-secondary
-  'rgb-muted': '250 250 250', // Same as surface-tertiary
+  'rgb-muted': '238 243 255', // Same as surface-tertiary
   'rgb-muted-foreground': '120 120 120', // Same as text-tertiary
-  'rgb-accent': '245 245 245', // Same as surface-active-alt
+  'rgb-accent': '221 232 255', // Same as surface-active-alt
   'rgb-accent-foreground': '17 17 17', // Same as text-primary
   'rgb-destructive-foreground': '17 17 17', // Same as text-primary
   'rgb-border': '215 215 215', // Same as border-medium
   'rgb-input': '230 230 230', // Same as border-light
   'rgb-ring': '37 99 235', // #2563EB (blue-600)
-  'rgb-card': '247 247 248', // Same as surface-secondary
+  'rgb-card': '238 243 255', // Same as surface-secondary
   'rgb-card-foreground': '17 17 17', // Same as text-primary
 };
