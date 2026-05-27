@@ -1516,6 +1516,16 @@ button {
   transition-delay: 0s;
 }
 
+body {
+  background: linear-gradient(
+    150deg,
+    #eff6ff 0%,
+    #f8fbff 50%,
+    #e0f2fe 100%
+  );
+  background-attachment: fixed;
+}
+
 body,
 html {
   height: 100%;
@@ -1525,6 +1535,7 @@ html {
 .dark html {
   --tw-bg-opacity: 1;
   background-color: rgba(23, 23, 23, var(--tw-bg-opacity));
+  background-image: none;
 }
 
 #__next,
