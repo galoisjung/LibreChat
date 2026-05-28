@@ -3,13 +3,17 @@
 
 services:
   api:
-    container_name: LibreChat
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: librechat-api:latest   # 빌드 후 로컬 태그
+    container_name: LibreChat-API
+
     ports:
       - "${PORT}:${PORT}"
     depends_on:
       - mongodb
       - rag_api
-    image: aidaroot/librechat:0.0.1
     restart: always
     user: "${UID}:${GID}"
     extra_hosts:
