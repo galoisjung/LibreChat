@@ -7,7 +7,6 @@ services:
       context: .
       dockerfile: Dockerfile
     image: librechat-api:latest   # 빌드 후 로컬 태
-    pull_policy: never
     container_name: LibreChat-API
 
     ports:
