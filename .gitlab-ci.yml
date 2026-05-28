@@ -11,7 +11,7 @@ deploy:
     - cd /data/librechat/LibreChat
     - git pull origin main
     - docker compose -f deploy-compose.yml build --no-cache
-    - docker compose -f deploy-compose.yml up -d
+    - docker compose -f deploy-compose.yml up -d --force-recreate --remove-orphans
     - docker image prune -f
   environment:
     name: production
