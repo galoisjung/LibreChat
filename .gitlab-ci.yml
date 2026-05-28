@@ -8,7 +8,7 @@ deploy:
   tags:
     - librechat-production
   script:
-    - cd /opt/librechat
+    - cd /data/librechat/LibreChat
     - git pull origin main
     - docker compose -f deploy-compose.yml build --no-cache
     - docker compose -f deploy-compose.yml up -d
