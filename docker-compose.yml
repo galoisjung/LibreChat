@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: librechat-api:latest   # 빌드 후 로컬 태
+    image: aidaroot/librechat:0.0.1   # 빌드 후 로컬 태
     container_name: LibreChat-API
 
     ports:

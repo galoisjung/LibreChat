@@ -1,9 +1,8 @@
 services:
   api:
-    # build:
-    #   context: .
-    #   dockerfile: Dockerfile.multi
-    #   target: api-build
+    build:
+       context: .
+       dockerfile: Dockerfile
     image: aidaroot/librechat:0.0.1
     container_name: LibreChat-API
     ports:
