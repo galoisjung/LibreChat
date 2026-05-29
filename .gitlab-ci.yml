@@ -10,6 +10,8 @@ deploy:
   script:
     - cd /data/librechat/LibreChat
     - git pull origin main
+    - mkdir -p uploads images logs
+    - chown -R 1000:1000 uploads images logs
     - docker compose -f deploy-compose.yml build --no-cache
     - docker compose -f deploy-compose.yml up -d --force-recreate --remove-orphans
     - docker image prune -f
