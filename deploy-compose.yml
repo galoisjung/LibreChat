@@ -10,6 +10,7 @@ services:
     depends_on:
       - mongodb
       - rag_api
+    user: "1000:1000"
     restart: always
     extra_hosts:
     - "host.docker.internal:host-gateway"
